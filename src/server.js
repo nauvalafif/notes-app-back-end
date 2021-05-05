@@ -4,7 +4,7 @@ import routes from './routes.js';
 const init = async () => {
   const server = _server({
     port: 5000,
-    host: process.env.NODE_ENV !== 'production' ? 'localhost' : '172.31.36.19',
+    host: process.env.NODE_ENV !== 'production' ? 'localhost' : '172.31.22.246',
     routes: {
       cors: {
         origin: ['*'],
